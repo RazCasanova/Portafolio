@@ -1,4 +1,5 @@
-const btn_inicio = document.getElementById('btn-inicio')
+const btn_inicio = document.getElementById('btn-inicio'),
+      btn_acerca = document.getElementById('acerca');
 window.addEventListener("scroll",(e)=>{
     const scroll = window.pageYOffset || document.documentElement.scrollTop;
     
@@ -13,13 +14,13 @@ function btn_i(){
     window.scrollTo({
         behavior:"smooth",
         top:0,
-
     });
 }
 
 var mql = window.matchMedia('(min-width: 931px)');
 let btn_menu = document.getElementById('btn-menu');
     let menu = document.getElementById('menu');
+
 function screenTest(e) {
   if (e.matches) {
     btn_menu.classList.replace('visible','hidden');

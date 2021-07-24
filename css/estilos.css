@@ -5,6 +5,7 @@
 
 html{
     font-family: 'IBM Plex Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 a{
@@ -151,6 +152,10 @@ header .btn-menu:hover{
     flex-flow: row wrap;
 }
 
+.tecnologias .lista-tecnologias .capa p {
+    text-align: center;
+}
+
 .lista-tecnologias img{
     width: 100px;
     height: 100px;
@@ -188,7 +193,6 @@ header .btn-menu:hover{
     margin-bottom: 10px;
     border: 1px solid #000000;
     border-radius:50%;
-    background-color: #00000083;
     transition: .9s;
 }
 
